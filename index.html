@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Vayu P Cape</title>
+  
+
+  <link rel="shortcut icon" href="./img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="./css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="./css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="./css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "None";
+    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_url = "/";
+  </script>
+  
+  <script src="./js/jquery-2.1.1.min.js"></script>
+  <script src="./js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="./js/highlight.pack.js"></script>
+  <script src="./js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> Vayu P Cape</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href=".">Home</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#descriptions">Descriptions</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#specifications">Specifications</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#eeprom">EEPROM</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#vendors">Vendors</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#manufacturers-link">Manufacturer's Link</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">Vayu P Cape</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Home</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><span style="color:black;font-size:2.3em;">Vayu P Cape</span></p>
+<h2 id="descriptions">Descriptions</h2>
+<p>VAYU P Cape provides a standalone GPS module in the form of a Beaglebone cape which provides standard compliant NMEA based geolocation and global time synchronization (1pps, 0.2 microsecond jitter accuracy). </p>
+<p><img alt="300px-Vayu_P_Cape" src="./img/300px-Vayu_P_Cape.jpg" /></p>
+<h2 id="specifications">Specifications</h2>
+<table>
+<thead>
+<tr>
+<th>Electrical Specifications</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Power</td>
+<td>3.3V via expansion header</td>
+</tr>
+<tr>
+<td></td>
+<td>5V via expansion header</td>
+</tr>
+<tr>
+<td>Indicators</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Connectors</td>
+<td>Two 46-position connectors</td>
+</tr>
+<tr>
+<td></td>
+<td>SMA connectors for GPS antennas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Mechanical Specifications</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Size</td>
+<td>3.40" x 2.15"</td>
+</tr>
+<tr>
+<td>Layers</td>
+<td>4</td>
+</tr>
+<tr>
+<td>PCB Thickness</td>
+<td>.062"</td>
+</tr>
+<tr>
+<td>RoHS Compliant</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>GPIO Pin out</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P9.10</td>
+<td>Beaglebone black and Cape reset</td>
+</tr>
+<tr>
+<td>P9.12</td>
+<td>Modem Reset</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P9.19</td>
+<td>I2C Bus for EEPROM</td>
+</tr>
+<tr>
+<td>P9.20</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P9.11</td>
+<td>GPS NMEA serial data port</td>
+</tr>
+<tr>
+<td>P9.13</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P9.14</td>
+<td>GPS Module Reset</td>
+</tr>
+<tr>
+<td>P8.17</td>
+<td>GPS Module 1 PPS Input</td>
+</tr>
+</tbody>
+</table>
+<h2 id="eeprom">EEPROM</h2>
+<table>
+<thead>
+<tr>
+<th>Vayu 3GH Cape</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EEPROM Suport</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Board Name</td>
+<td>Vayu 3P Cape</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Manufacturer</td>
+<td>Yantrr Electronic Systems</td>
+</tr>
+<tr>
+<td>Part Number</td>
+<td>VAYU-P-A</td>
+</tr>
+<tr>
+<td>Pins Used</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="P_only" src="./img/P_only.jpg" /></p>
+<table>
+<thead>
+<tr>
+<th>Documentations</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open Source</td>
+<td>Partly on proven request</td>
+</tr>
+<tr>
+<td>System Reference Manual</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Schematics</td>
+<td>Partly on proven request</td>
+</tr>
+<tr>
+<td>PCB Files</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Gerber Files</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Bills of Materials</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="vendors">Vendors</h2>
+<p><a href="http://www.yantrr.com/products/m2m-cape-for-beaglebone">Yantrr Electronic Systems</a></p>
+<h2 id="manufacturers-link">Manufacturer's Link</h2>
+<p>For more information about this cape, please visit 
+<a href="http://www.yantrr.com/products/m2m-cape-for-beaglebone">Yantrr Electronic Systems</a></p>
+<p>To go back to the cape list, please click 
+<a href="http://elinux.org/Beagleboard:BeagleBone_Capes">BeagleBone Capes </a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 0.15.3
+Build Date UTC : 2016-07-22 15:31:57.039481
+-->
